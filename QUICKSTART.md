@@ -13,9 +13,11 @@ pip install -r requirements.txt
 
 ### 2. Configure API Key
 
-Your OpenRouter API key is already in `.env`:
-```
-OPENROUTER_API_KEY=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
+Create a `.env` file with your OpenRouter API key:
+```bash
+cp .env.example .env
+# Edit .env and add your API key:
+# OPENROUTER_API_KEY=your-key-here
 ```
 
 ### 3. Test the Framework

@@ -1,0 +1,30 @@
+================================================================================
+LLM CONTROLLED DYNAMICS: COMPARATIVE ANALYSIS REPORT
+================================================================================
+
+## Summary Statistics by Experiment and Model Size
+
+experiment category  n_models  mean_delta_memorization  std_delta_memorization  mean_delta_kl  std_delta_kl  mean_control_memorization  mean_modified_memorization
+         A    small         2                -0.108762                0.163368      -0.215210      2.416455                   0.097609                    0.206371
+         B    small         2                 0.130877                0.112486      10.126782      4.391857                   0.186275                    0.055398
+         C    small         2                 0.145643                0.052294      15.526234      5.348617                   0.166021                    0.020378
+         D    small         2                 0.068035                0.042055      13.685902      7.627932                   0.073149                    0.005114
+         E    small         2                 0.019544                0.027640       5.116392      7.235671                   0.036986                    0.017442
+
+## Experiments Ranked by Impact
+
+experiment  mean_impact  std_impact  max_impact  n_models
+         C     0.145643    0.052294    0.182620         2
+         B     0.130877    0.112486    0.210417         2
+         A     0.115519    0.163368    0.224281         2
+         D     0.068035    0.042055    0.097773         2
+         E     0.019544    0.027640    0.039089         2
+
+## Phase Transitions (delta > 0.5)
+
+
+## Model Robustness Ranking
+
+                         model category  robustness_score  mean_delta
+ mistralai/mistral-7b-instruct    small          0.961485    0.038515
+meta-llama/llama-3-8b-instruct    small          0.936380    0.063620

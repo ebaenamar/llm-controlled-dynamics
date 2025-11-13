@@ -82,7 +82,7 @@ class OpenRouterClient:
         self.headers = {
             "Authorization": f"Bearer {self.api_key}",
             "Content-Type": "application/json",
-            "HTTP-Referer": "https://github.com/llm-dynamics",
+            "HTTP-Referer": "https://github.com/ebaenamar/llm-controlled-dynamics",
             "X-Title": "LLM Controlled Dynamics Research"
         }
     
